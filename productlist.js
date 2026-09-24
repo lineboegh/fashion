@@ -9,7 +9,7 @@ function visData(json) {
   console.log(json);
   json.forEach((element) => {
     produktliste.innerHTML += `
-    <a class="link" href="productdetails.html">
+    <a class="link" href="productdetails.html?id=${element.id}">
     <article class="card">
     <img src=https://kea-alt-del.dk/t7/images/webp/640/${element.id}.webp alt="produktbillede" />
     <h2>${element.productdisplayname}</h2>
