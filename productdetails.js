@@ -4,8 +4,8 @@ console.log(id);
 const endpoint = `https://kea-alt-del.dk/t7/api/products/${id}`;
 
 const produktdetaljer = document.querySelector(".produktdetaljer");
-const titel = document.querySelector("#titel");
-const tilbageknap = document.querySelector("#tilbageknap");
+const titel = document.querySelector(".titel");
+const tilbageknap = document.querySelector(".tilbageknap");
 
 tilbageknap.addEventListener("click", () => history.back());
 
