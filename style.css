@@ -114,3 +114,21 @@ h1 {
 .filtre-nav {
   margin-bottom: 2rem;
 }
+
+.tilbudslabel {
+  background-color: red;
+  padding: 0.5rem 0.7rem;
+  color: white;
+  display: inline-block;
+  width: fit-content;
+}
+
+.førpris {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.udsolgt {
+  filter: grayscale(1);
+  opacity: 0.5;
+}
